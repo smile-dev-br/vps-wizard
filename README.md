@@ -18,7 +18,7 @@ Este guia explica como configurar automaticamente o **Portainer.IO** e o **NGINX
 Este método executa tudo em uma única linha de comando.
 
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt install -y dos2unix && cd / && mkdir -p stacks && cd /stacks && curl -fsSL https://pastebin.com/raw/rr5Mpfc0 -o setup.sh && cat setup.sh && dos2unix setup.sh && chmod +x setup.sh && ./setup.sh
+sudo apt update && sudo apt upgrade -y && sudo apt install -y dos2unix && cd / && mkdir -p stacks && cd /stacks && curl -fsSL https://raw.githubusercontent.com/smile-dev-br/vps-wizard/refs/heads/main/setup.sh -o setup.sh && cat setup.sh && dos2unix setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 ### **O que este comando faz**
